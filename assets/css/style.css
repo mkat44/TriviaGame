@@ -3,15 +3,35 @@ body {
     text-align: center;
 }
 
+.container {
+    background-color: #dddddd;
+    width: 50%;
+    height: 60%;
+    margin: 10% auto;
+}
+
 .results {
     background-color: #dddddd;
-    width: 60%;
+    width: 50%;
     height: 60%;
     margin: 10% auto;
 }
 
 .header {
     background-color: #333333;
+}
+
+.placeholder {
+    margin: 1% 1% 1% 15%;
+    padding: 1%;
+}
+
+.textbox {
+    padding: 5%;
+}
+
+#btnarea {
+    margin: 2% auto;
 }
 
 #quizzes {

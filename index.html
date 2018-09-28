@@ -12,42 +12,44 @@
 </head>
 <body>
     <div class="container">
-        <div class="row header">
+        <div class="row">
             <div class="col-md-12">
                 <h1 class="heading"></h1>
             </div>
         </div>
+        <hr>
         <div class="row resultsimage">
             <div class="col-md-2"></div>
-            <div class="col-md-8 mx-auto">
+            <div class="col-md-8 justify-content-center giphy">
                 <img src="assets/images/eyeroll.gif" class="img-fluid placeholder">
             </div>
             <div class="col-md-2"></div>
         </div>
+        <hr>
         <div class="row resultstext">
             <div class="col-md-12">
-                <p class="text"></p>
+                <p class="textbox"></p>
             </div>
         </div>
-        <div class="row questionrow1">
+        <div class="row questionsone">
             <div class="col-md-12">
-                <p class="question-area"></p>
+                <p class="questionarea"></p>
             </div>
         </div>
         <hr>
-        <div class="row questionrow2">
+        <div class="row questionstwo">
             <div class="col-md-12">
                 <ul>
-                    <li><strong>A:</strong> <p class="optionA"></p></li>
-                    <li><strong>B:</strong> <p class="optionB"></p></li>
-                    <li><strong>C:</strong> <p class="optionC"></p></li>
-                    <li><strong>D:</strong> <p class="optionD"></p></li>
+                    <button class="choice optionA"><li><strong>A:</strong></li></button>
+                    <button class="choice optionB"><li><strong>B:</strong></li></button>
+                    <button class="choice optionC"><li><strong>C:</strong></li></button>
+                    <button class="choice optionD"><li><strong>D:</strong></li></button>
                 </ul>
             </div>
         </div>
-        <div class="row startbutton">
+        <div class="row startbtn">
             <div class="col-md-10"></div>
-            <div class="col-md-2">
+            <div class="col-md-2" id="btnarea">
                 <button type="button" class="btn btn-dark start-button">Go</button>
             </div>
         </div>
