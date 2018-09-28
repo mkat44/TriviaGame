@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/dark_embroidery.png);
+    text-align: center;
+}
+
+.results {
+    background-color: #dddddd;
+    width: 60%;
+    height: 60%;
+    margin: 10% auto;
+}
+
+.header {
+    background-color: #333333;
+}
+
+#quizzes {
+    background-color: #dddddd;
+}
+
+.startbutton {
+    background-color: #777777;
+}
